@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+    background: linear-gradient(to left bottom, rgb(10, 78, 124), rgb(209, 69, 139), rgb(2, 36, 109));
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -8,13 +8,13 @@ body {
     font-family: monospace;
 }
 .container {
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(144, 245, 12, 0.3);
     padding: 20px;
     box-shadow: 0 6px 10px rgba(0,0,0,.3);
     border-radius: 15px;
     width: 85%;
     text-align: center;
-    color: darkgreen;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -42,7 +42,10 @@ joke {
     border-color: rgba(255,255,255,.6);
     text-transform: uppercase;
     width: 300px;
-    color: darkgreen;
+    color: rgb(248, 20, 20);
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    text-shadow: 1px 2px 1px rgba(0,0,0,.3);
 }
 
 .btn:hover {
